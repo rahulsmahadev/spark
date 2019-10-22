@@ -60,3 +60,6 @@ addSbtPlugin("com.simplytyped" % "sbt-antlr4" % "0.7.13")
 // the plugin; this is tracked at SPARK-14401.
 
 addSbtPlugin("org.spark-project" % "sbt-pom-reader" % "1.0.0-spark")
+
+resolvers += Resolver.url("typesafe sbt-plugins",
+  url("https://dl.bintray.com/typesafe/sbt-plugins"))(Resolver.ivyStylePatterns)
